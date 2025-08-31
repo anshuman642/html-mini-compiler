@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muskuraiye — Aap Coder Hai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>💻 Muskuraiye — Aap Coder Hai 😊</h1>
+  </header>
+
+  <main>
+    <div class="editor-container">
+      <div class="editor">
+        <h2>HTML</h2>
+        <textarea id="htmlCode" placeholder="Yaha HTML code likho..."></textarea>
+      </div>
+
+      <div class="editor">
+        <h2>CSS</h2>
+        <textarea id="cssCode" placeholder="Yaha CSS code likho..."></textarea>
+      </div>
+
+      <div class="editor">
+        <h2>JavaScript</h2>
+        <textarea id="jsCode" placeholder="Yaha JS code likho..."></textarea>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button onclick="runCode()">▶ Run Code</button>
+      <button onclick="saveCode()">💾 Save</button>
+      <button onclick="clearCode()">🧹 Clear</button>
+    </div>
+
+    <h2>Output 👇</h2>
+    <iframe id="output"></iframe>
+    <footer>Anshuman namdev<br>B2355R10106066</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
